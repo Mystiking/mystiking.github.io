@@ -8,14 +8,28 @@ layout: default
     <script type="text/javascript" async
       src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
     </script>
+    <style type="text/css">
+
+hr {
+width: 50%;
+height: 20px;
+background-color: red;
+margin-right: auto;
+margin-left: auto;
+margin-top: 5px;
+margin-bottom: 5px;
+border-width: 2px;
+border-color: green;
+}
+
+</style>
   </head>
   <body>
     <main id="content" class="main-content" role="main">
-      <h1> Projects created during my master and bachelor education at DIKU </h1>
       <center>
-        <h1> Title: The effect of different amounts of threads in
+        <h2> The effect of different amounts of threads in
 asynchronous methods for deep
-reinforcement learning</h1>
+reinforcement learning</h2>
         <h3> Abstract </h3>
         <p> In this paper we present the effects of asynchronous training in Deep Reinforcement Learning
 methods. An Actor-Critic method using eligibility traces has been implemented to solve the
@@ -32,9 +46,9 @@ a meaningful amount of work between each asynchronous update.
         <h3> The project is available <a href="https://github.com/Mystiking/bachelor-BA17"> here.
           </a></h3>
       </center>
-
+  <hr>
       <center>
-        <h1> Title: Normalisation of T1 Brain Images using Deep Learning </h1>
+        <h2> Normalisation of T1 Brain Images using Deep Learning </h2>
         <h3> Abstract </h3>
         <p> When a brain is scanned by an MRI machine, the image can be corrupted by a low-frequency
 signal, that can alter some of the pixel values - a so-called bias field signal[Kur+05]. Al-
@@ -44,8 +58,45 @@ pre-processing step is required. In this project we investigate the possibility 
 the bias field signal using a deep learning approach.
         </p>
         <img src="images/brains.png">
-        <h3> The project is available <a href="https://github.com/Mystiking/bachelor-BA17"> here.
-          </a></h3>
       </center>
+
+  <hr>
+      <center>
+        <h2> Conservative Safe Manufacturing of Cable Driven Soft Robotsusing Geometrical Constraints on Designed Shapes </h2>
+        <h3> Abstract </h3>
+        <p> We present an empirically derived geometric feasibility model formanufacturing cable
+        driven soft silicone robots using a single cast molding process. Through structured
+        experiments and observations, we inductively designed a mathematical model based on direct
+        geometric measurements of a boundary representation of a soft robot design. Further, we
+        demonstrate how the feasibility testing is incorporated into modeling with constructive
+        solid geometry (CSG) operations to verify design robustness before 3D printing molds for
+        casting soft robots. The simplicity of geometric - position-based - constraints for a design
+        verification model provides us with a finite dimensional parameter space linked to a low
+        number of CSG parameters. Future work may exploit our low-number parametric position-based
+        approach in combination with position-based dynamics to yield fast simulations for
+        exploring the design space prior to manufacturing.
+        </p>
+        <video width="640" height="480" controls autoplay loop>
+          <source src="videos/MiG_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+      </center>
+      <hr>
+
+      <center>
+        <h2> pynetworkred </h2>
+        <h3> Description </h3>
+        <p> A software package implementing Python bindings for the C++ code implemented for
+        the <a
+          href="https://orbit.dtu.dk/fedora/objects/orbit:119737/datastreams/file_273e4329-cc66-4eac-86e5-10c0d6a69a56/content">
+          Real-Time Thevenin Impedance Computation </a> by <a
+                                                             href="https://di.ku.dk/ansatte?pure=da/persons/254908">
+          Stefan Horst Sommer </a>. The software package enables fast sparse-matrix operations using
+        <a href="http://faculty.cse.tamu.edu/davis/suitesparse.html"> SuiteSparse </a>, and contains
+        implementations for computing Thevenin impedances of systems in Python.</p>
+        <p> For more information, see <a href="pynetworkred.readthedocs.io"> pynetworkred's
+          documentation page. </a></p>
+      </center>
+
     </main>
   </body>
